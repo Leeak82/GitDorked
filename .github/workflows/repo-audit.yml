@@ -41,7 +41,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7
       - name: Scan code for security and correctness issues
-        run: semgrep scan --config auto --error --metrics=off .
+        run: semgrep scan --config p/default --error --metrics=off --oss-only .
 
   dependencies-and-config:
     name: Dependencies and config (Trivy)
