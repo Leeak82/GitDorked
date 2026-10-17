@@ -1,6 +1,14 @@
 # GitDorked
 
-GitDorked is a mobile-friendly repository research and public-source query launcher. It combines curated Google/GitHub research queries, verified repository URL transforms, repeatable recipes, favorites, and local history in one TypeScript/React app.
+**Dork GitHub like a pro — curated OSINT queries, allowlisted repo transforms, and recon recipes in one fast, mobile-friendly web app. No install, no API key.**
+
+🔗 **Live demo:** https://gitdorked.onrender.com
+
+![GitDorked screenshot](docs/screenshot.png)
+
+GitDorked is a mobile-friendly repository research and public-source query launcher. It combines curated Google/GitHub research queries, verified repository URL transforms, repeatable recipes, favorites, and local history in one TypeScript/React app — with defensive secret redaction baked in so your inputs and outputs stay clean.
+
+> **Authorized / ethical use only.** GitDorked includes exposed-secret search queries meant for public-source research and for assets you own or are explicitly authorized to assess. It is not a credential-validation, exploitation, login-automation, or bulk-scanning tool. Use it responsibly and within scope.
 
 ## Features
 
@@ -97,3 +105,17 @@ Current verified transform patterns:
 ## Persistence
 
 Favorites, recent generated outputs, and recent repository URLs use browser local storage under `gitdorked:v1`. The storage adapter falls back safely when browser storage is unavailable or malformed.
+
+## Support
+
+If GitDorked saves you time, you can support development:
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-FFDD00?style=flat&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/anthonyleebuilds)
+
+## License
+
+Released under the [MIT License](LICENSE).
+
+## Suggested GitHub Topics
+
+`osint` · `github-dorks` · `security` · `recon` · `bug-bounty` · `react` · `vite` · `typescript` · `appsec` · `security-tools`

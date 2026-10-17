@@ -400,6 +400,18 @@ function App() {
           repos={persistedState.recentRepos}
         />
       ) : null}
+
+      <footer className="app-footer">
+        <span>GitDorked — public-source OSINT & GitHub research toolbox.</span>
+        <a
+          className="bmc-link"
+          href="https://buymeacoffee.com/anthonyleebuilds"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          ☕ Buy me a coffee
+        </a>
+      </footer>
     </main>
   );
 }

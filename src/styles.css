@@ -453,3 +453,33 @@ h3 {
     width: 100%;
   }
 }
+
+.app-footer {
+  margin-top: 28px;
+  padding: 18px 16px;
+  border-top: 1px solid #d7ded9;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.92rem;
+  color: #55625f;
+}
+
+.bmc-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 14px;
+  border-radius: 8px;
+  background: #ffdd00;
+  color: #17211f;
+  font-weight: 800;
+  text-decoration: none;
+  border: 1px solid #e3c200;
+}
+
+.bmc-link:hover {
+  background: #ffe53d;
+}
