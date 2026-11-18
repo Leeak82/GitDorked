@@ -108,9 +108,13 @@ Favorites, recent generated outputs, and recent repository URLs use browser loca
 
 ## Support
 
-If GitDorked saves you time, you can support development:
+If GitDorked saves you time on recon or exposure reviews, you can support continued development:
 
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-FFDD00?style=flat&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/anthonyleebuilds)
+- **Buy Me a Coffee** → [Support here](https://buymeacoffee.com/anthonyleebuilds)
+
+Sponsorships help fund new query packs, mobile improvements, and recipe expansions. Thank you.
+
+> Authorized use only. GitDorked is built for public-source research and assets you own or are explicitly authorized to assess.
 
 ## License
 
