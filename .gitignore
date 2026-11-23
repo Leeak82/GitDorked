@@ -5,3 +5,10 @@ dist/
 *.log
 *.tsbuildinfo
 node_modules/.tmp/
+# Secrets: never commit env files or keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.dev.vars
